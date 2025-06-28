@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - StyleSync</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>StyleSync</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="branches.html">Our Branches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="login.php" class="login-btn">Login</a></li>
+                <li><a href="register.php" class="register-btn">Register</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>We'd love to hear from you! Send us a message using the form or contact us directly.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Address</h4>
+                            <p>Near Jhang Mor Opposite Rescue Office, Bhakkar</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>Phone</h4>
+                            <p>+92-300000000</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <p>info@stylesync.com</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>Hours</h4>
+                            <p>Monday - Friday: 9am - 8pm<br>
+                            Saturday: 10am - 6pm<br>
+                            Sunday: 11am - 5pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm" class="contact-form" action="process_form.php" method="POST">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="serviceType">Service Interested In</label>
+                            <select id="serviceType" name="serviceType" class="form-select">
+                                <option value="">Select a service</option>
+                                <option value="haircut">Haircut & Styling</option>
+                                <option value="facial">Facial Treatment</option>
+                                <option value="makeup">Makeup</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-textarea" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>StyleSync</h2>
+                <p>Your beauty, our priority</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="branches.html">Branches</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@stylesync.com</p>
+                <p>Phone: +92-300000000</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 StyleSync. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
