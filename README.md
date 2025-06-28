@@ -1,6 +1,6 @@
 # StyleSync - Salon Appointment System
 
-![StyleSync Logo](https://via.placeholder.com/150x50?text=StyleSync) 
+![StyleSync Logo](https://stylesync.unaux.com) 
 *Your beauty, our priority*
 
 ## Table of Contents
